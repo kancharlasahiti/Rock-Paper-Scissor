@@ -1,5 +1,6 @@
-python
+#Python >= 3.10 required
 django
-MachineLearning
-HTML
+pandas 
+numpy
+scikit-learn
 gunicorn 
