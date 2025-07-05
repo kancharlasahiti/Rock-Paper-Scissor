@@ -1,5 +1,5 @@
 python
 django
-Machine Learning
+MachineLearning
 HTML
 gunicorn 
