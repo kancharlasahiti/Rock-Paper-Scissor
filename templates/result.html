@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Result</title>
+</head>
+<body>
+    <h1>Result of the Game</h1>
+    <p><strong>You chose:</strong> {{ user_choice|capfirst }}</p>
+    <p><strong>Computer chose:</strong> {{ computer_choice|capfirst }}</p>
+    <h2>{{ result }}</h2>
+
+    <a href="{% url 'RPS_home' %}">Play Again</a>
+</body>
+</html>
